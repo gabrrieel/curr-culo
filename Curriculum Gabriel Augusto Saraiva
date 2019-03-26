@@ -2,15 +2,18 @@
 <html>
 
 <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
+  
   <title>Curriculum Gabriel Augusto Saraiva</title>
+
 </head>
 
 <body>
-  <script>
+ <script>
     "use strict";
-    const urlXP = "https://demo1915525.mockable.io/expprofissional";
-    const urlHAB = "https://demo1915525.mockable.io/habtecnicas";
+    const urlXP = "https://demo8942424.mockable.io/empresas";
+    const urlHAB = "https://demo8942424.mockable.io/habtecnicas";
 
     function httpGetAsync(theUrl, callback) {
       let xmlHttp = new XMLHttpRequest();
@@ -18,17 +21,9 @@
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
           callback(xmlHttp.responseText);
       }
-      xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+      xmlHttp.open("GET", theUrl, true); 
       xmlHttp.send(null);
-      }
-function criarElementos (data){
-  var empresas = document.querySelector('.empresas');
-
-  data.empresas.forEach(function(empresa){
-     var novoElemento = document.createElement('span');
-     novoElemento.innerText = empresa.id;
-  })
-};
+    }
 
     httpGetAsync(urlXP, (resp) => {
       console.log("urlXP", resp);
@@ -45,12 +40,14 @@ function criarElementos (data){
   <h3>Brasileiro, União estavel, 23 anos.</h3>
   <h3>Rua Santos, 190 - Jd Queiroz - Cambé-PR</h3>
   <h3>CPF: 023.223.551-19</h3>
-  <h3>Telefone: (43)99951-8156 / E-mail: gabriel_augusto1995@hotmail.com.br</h3>
+  <h3>Telefone: (43)99951-8156 <br> <br>
+  E-mail: gabriel_augusto1995@hotmail.com.br</h3>
   <hr>
 
   <h1>Experiências Profissionais:</h1>
 
   <hr>
+
   <hr>
   <h1> Formação: </h1>
   <hr>
@@ -60,6 +57,8 @@ function criarElementos (data){
 
   <h1>Habilidades Técnicas:</h1>
   <hr>
+
+
   <hr>
 
   <h1>Idiomas:</h1>
