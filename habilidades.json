@@ -1,0 +1,25 @@
+ var tipos = [
+    {
+        "code": "258",
+        "label": "Sapatos"
+    },
+    {
+        "code": "547",
+        "label": "Kits"
+    },
+    {
+        "code": "1213",
+        "label": "Whey Protein"
+    },
+    {
+        "code": "3110",
+        "label": "Bolas"
+    },
+    {
+        "code": "4316",
+        "label": "Camisas de Time"
+    },
+    {
+        "code": "1251",
+        "label": "Cuecas"
+    }];
