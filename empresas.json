@@ -1,0 +1,17 @@
+{
+	"empresas": [{
+			"id": "1",
+			"periodo": "[2007-2011]",
+			"empresa": "NBC CONTABILIDADE ",
+			"cargo": "AUXILIAR DE ESCRITÓRIO",
+			"funcoes": "AXILIDAR DEPARTAMENTO DE PESSOA E FISCAL."
+		},
+		{
+			"id": "2",
+			"periodo": "[2017-2019]",
+			"empresa": "ATOS TECNOLOGIA DA INFORMAÇÃO LTDA",
+			"cargo": "ANALISTA DE SUPORTE A USUÁRIO",
+			"funcoes": "SUPORTE DE USUÁRIO A SOFTWARE E DEMAIS APLICAÇÕES."
+		}
+	]
+}
